@@ -44,16 +44,16 @@ The objective of this project is to demonstrate a clean, scalable backend archit
 
   ## API Endpoints
 
-### Ships
+### SpaceShips
 
 | Method | Endpoint                  | Description                                      |
 |--------|----------------------------|--------------------------------------------------|
-| GET    | `/ships`                  | Retrieve a paginated list of ships.              |
-| GET    | `/ships/{id}`             | Retrieve a single ship by ID.                    |
-| GET    | `/ships/search?name={name}` | Search for ships containing `{name}` in their name. |
-| POST   | `/ships`                  | Create a new ship.                               |
-| PUT    | `/ships/{id}`             | Update an existing ship by ID.                   |
-| DELETE | `/ships/{id}`             | Delete a ship by ID.                             |
+| GET    | `/spaceships`                  | Retrieve a paginated list of spaceships.              |
+| GET    | `/spaceships/{id}`             | Retrieve a single spaceships by ID.                    |
+| GET    | `/spaceships/search?name={name}` | Search for spaceships containing `{name}` in their name. |
+| POST   | `/spaceships`                  | Create a new spaceships.                               |
+| PUT    | `/spaceships/{id}`             | Update an existing spaceships by ID.                   |
+| DELETE | `/spaceships/{id}`             | Delete a spaceships by ID.                             |
 
 ### Series
 
